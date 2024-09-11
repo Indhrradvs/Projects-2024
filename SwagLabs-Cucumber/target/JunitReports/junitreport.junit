@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="41.025" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test Swag Labs Application Login Functionality" name="check login is successful with valid Credentials - Example #1.1" time="10.079">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user entersstandard_user and secret_sauce..............................passed
+And clicks on login button..................................................passed
+Then user is navigated to the Home Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test Swag Labs Application Login Functionality" name="Add the items to the cart" time="30.831">
+<system-out><![CDATA[
+When select the items to the cart...........................................passed
+Then move to the cart.......................................................passed
+And remove some item from the cart..........................................passed
+Then Move back to Previous page.............................................passed
+Then Add another item to the cart...........................................passed
+Then Move to cart Again.....................................................passed
+And Click on Checkout button................................................passed
+Then Enter customer details.................................................passed
+Then Finish order and capture the confirmation..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
